@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔴 Pokédex</h1>
+
+        <div class="search">
+            <input type="text" id="pokemonInput" placeholder="Busca un Pokémon...">
+            <button id="searchBtn">Buscar</button>
+        </div>
+
+        <div id="pokemonCard" class="card hidden"></div>
+        <p id="error" class="error hidden">Pokémon no encontrado ❌</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
