@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La Casa de las Variedades</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="">
+    <!-- NAVBAR -->
+
+    <header class="bg-white shadow mb-6">
+
+        <div class="max-w-7xl mx-auto flex justify-between items-center p-2">
+
+            <img src="./img/Logo.jpeg" alt="" class="h-48">
+
+            <div class="flex flex-col items-center ">
+                <h2 class="text-4xl font-semibold text-[#219ab0]">
+                    ¡Bienvenidos a
+                </h2>
+
+                <h1 class="text-4xl font-semibold text-[#219ab0]">
+                    Nuestra pagina web!
+                </h1>
+            </div>
+
+            <input type="text" placeholder="Buscar producto..." class="border-2 rounded-lg px-3 py-1 w-64">
+
+        </div>
+
+    </header>
+
+
+    <!-- BANNER -->
+
+    <!-- <section class="bg-blue-300 text-white text-center py-12">
+
+        <h2 class="text-4xl font-bold">
+            Ofertas de la Semana
+        </h2>
+
+        <p class="mt-2">
+            Hasta 30% de descuento en productos de hogar
+        </p>
+
+    </section> -->
+
+
+    <!-- CATEGORÍAS -->
+
+    <section class="max-w-7xl mx-auto py-10">
+
+        <h2 class="text-4xl text-center text-[#ec6e08] font-semibold mb-6 ">
+            Nuestros Productos
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 ">
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="hogar">
+                Hogar
+            </button>
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="mascotas">
+                Mascotas
+            </button>
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="papeleria">
+                Papelería
+            </button>
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="belleza">
+                Belleza
+            </button>
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="bisuteria">
+                Bisutería
+            </button>
+
+            <button class="categoria text-xl font-bold p-4 rounded-2xl shadow-lg" data-categoria="desechables">
+                Desechables
+            </button>
+
+        </div>
+
+    </section>
+    <section class="max-w-7xl mx-auto py-10">
+
+<!-- <h2 class="text-3xl font-semibold mb-6">
+Productos
+</h2> -->
+
+<div id="contenedor-productos" class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+</div>
+
+</section>
+
+
+    <!-- PRODUCTOS -->
+
+    <!-- <section class="max-w-7xl mx-auto py-10"> -->
+
+    <!-- <h2 class="text-2xl font-bold mb-6">
+            Productos
+        </h2> -->
+
+    <!-- <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6"> -->
+
+    <!-- CARD PRODUCTO -->
+
+    <!-- <div class="bg-white rounded shadow p-4"> -->
+
+    <!-- <img src="./img/Organizador-Platillero-De-Cocina-8-Puestos.webp" class="w-full h-40 object-cover">
+
+                <h3 class="mt-2 font-semibold">
+                    Organizador de cocina
+                </h3>
+
+                <p class="text-green-600 font-bold">
+                    $18.000
+                </p>
+
+                <p class="text-sm text-green-500">
+                    Disponible
+                </p>
+
+                <a href="https://wa.me/573000000000?text=Hola,%20quiero%20comprar%20el%20organizador%20de%20cocina"
+                    class="block text-center mt-3 bg-green-500 text-white py-2 rounded">
+                    Comprar por WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+    <!-- BOTÓN WHATSAPP FIJO -->
+
+    <a href="https://wa.me/573000000000"
+        class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg">
+        💬
+    </a>
+
+    <script src="./card.js"></script>
+
+</body>
+
+</html>
